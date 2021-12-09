@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+  <head th:replace="index :: head('게시판')">
+
+</head>
+<body>
+  
+    <header th:replace="index :: nav('게시판')"></header>
+    
+    mongo test : [[${user}]]
+
+    <form th:action="@{/test}" method="post">
+      <input type="text" id="id" name="id" value="id"/>
+      <input type="text" email="email" name="email" value="email"/>
+      <input type="text" grade="grade" name="grade" value="grade"/>
+      <button type="submit">submit</button>
+    </form>
+</body>
+</html>

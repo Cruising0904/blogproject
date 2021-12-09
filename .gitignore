@@ -35,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Config Files ###
+application.properties
+application.yml
+localhost.p12
